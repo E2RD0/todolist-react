@@ -1,0 +1,6 @@
+.todolist-items ul{
+    list-style-type: none;
+    box-shadow: 0px -8px 26px 0px rgba(0,0,0,0.14);
+    padding: 0;
+    margin: 3rem -2rem 0rem;
+}

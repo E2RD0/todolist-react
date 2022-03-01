@@ -1,0 +1,49 @@
+html{
+  box-sizing: border-box;
+ }
+ 
+ *,
+ *::after,
+ *::before {
+  box-sizing: inherit;
+ }
+
+body{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  background-color: #e6e7ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#root{
+  width: 100%;
+  max-width: 800px;
+}
+
+.main-container {
+  background-color:  #fff;
+  padding: 2rem 2rem 0;
+  margin: 2rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 50px -1px rgba(0,0,0,0.66); 
+  box-shadow: 5px 5px 50px -1px rgba(0,0,0,0.66);
+  text-align: center;
+  overflow: hidden;
+}
+.deleteBox{
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.deleteBox button{
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 500px){
+  .main-container{
+    margin: 0;
+  }
+}

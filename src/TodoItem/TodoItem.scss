@@ -1,0 +1,47 @@
+.todolist-items{
+    ul>p{
+        padding: 2rem 0;
+    }
+    li{
+        display: flex;
+        padding: 2rem;
+        border-bottom: 2px solid #dadada;
+        align-items: center;
+    }
+    li label{
+        flex-grow: 2;
+        text-align: left;
+        margin-left: 3rem;
+        height: 100%;
+        color: #626470;
+        font-weight: 500;
+    }
+
+    li .action{
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    li .del-button{
+        color: #dddddd;
+    }
+
+    li .del-button:hover{
+        color: #ff4d4d;
+    }
+
+    li .check-button{
+        color: #dddddd;
+    }
+
+    li .check-button:hover{
+        color: #3dd294;
+    }
+
+    li.completed label{
+        text-decoration: line-through;
+    }
+    li.completed .check-button{
+        color: #3dd294;
+    }
+}
